@@ -1,0 +1,23 @@
+.con,.con1,.con2,.con3{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.con1{
+    background: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.con2{
+    background: burlywood;
+    height: 100px;
+    width: 100px;
+    overflow: scroll;
+}
+.con3{
+    background: cadetblue;
+    height: 100px;
+    width: 100px;
+    overflow: auto;
+}

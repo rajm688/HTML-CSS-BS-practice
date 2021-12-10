@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid black;
+    display:flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column-reverse */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: first baseline; */
+    /* justify-content: flex-end; */
+    /* justify-content:stretch; */
+    /* align-items: stretch; */
+    /* justify-content: center; */
+
+
+
+}
+.box{
+    border: 2px solid black;
+}
+#box1{
+    background: chocolate;
+    flex: 2;
+}
+#box3{
+    background: chartreuse;
+    flex:3;
+}
+#box2{
+    flex:1 ;
+    background: cyan;
+}
